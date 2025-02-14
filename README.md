@@ -1,40 +1,41 @@
 # Creative Agency
 
-🚀 **Creative Agency** adalah proyek berbasis **React** yang dirancang untuk memberikan pengalaman digital modern dan responsif bagi agensi kreatif. Dibangun dengan teknologi terkini untuk memastikan performa optimal dan tampilan yang memukau.
+🚀 **Creative Agency** is a **React-based** project designed to provide a modern and responsive digital experience for creative agencies. Built with the latest technology to ensure optimal performance and an impressive appearance.
 
 ## 🎨 Assets
-Proyek ini menggunakan aset dari [Azurakit](https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==), sebuah koleksi UI premium yang membantu meningkatkan estetika dan fungsionalitas aplikasi.
+This project utilizes assets from [Azurakit](https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==), This website provides website templates
+and design resources for your project.
 
-## ⚡ Fitur Utama
-- **Desain Modern & Responsif**
-- **Komponen Reusable** untuk pengembangan yang lebih cepat
-- **Kode Bersih & Terstruktur**
-- **Dukungan untuk Dark Mode**
+## ⚡ Key Features
+- **Modern & Responsive Design**
+- **Reusable Components** for faster development
+- **Clean & Structured Code**
+- **Dark Mode Support**
 
-## 📦 Instalasi
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
+## 📦 Installation
+Follow these steps to run the project locally:
 
 ```sh
-# Clone repository
+# Clone the repository
 git clone https://github.com/zen-Hikari/Creative-Agency_Landing-Page.git
 
-# Masuk ke direktori proyek
+# Navigate to the project directory
 cd creative-agency
 
 # Install dependencies
 pnpm install
 
-# Jalankan di mode development
+# Start in development mode
 pnpm run dev
 ```
 
-## 🛠 Teknologi yang Digunakan
-- **React.js** – Library front-end untuk membangun UI interaktif
-- **Vite** – Build tool yang cepat untuk proyek modern
-- **Tailwind CSS** – Framework CSS untuk styling yang fleksibel
+## 🛠 Technologies Used
+- **React.js** – Front-end library for building interactive UIs
+- **Vite** – A fast build tool for modern projects
+- **Tailwind CSS** – A utility-first CSS framework for flexible styling
 
-## 📄 Lisensi
-Proyek ini dikembangkan oleh **Noval H.** dan dapat digunakan sesuai dengan aturan yang berlaku.
+## 📄 License
+This project is developed by **Noval H.** and is available for use under applicable regulations.
 
 ---
 ✨ *Developed with passion by Noval H.* ✨
