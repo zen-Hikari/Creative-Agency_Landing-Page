@@ -38,4 +38,4 @@ pnpm run dev
 This project is developed by **Noval** and is available for use under applicable regulations.
 
 ---
-✨ *Developed with passion by Noval H.* ✨
+✨ *Developed with passion by Noval* ✨
