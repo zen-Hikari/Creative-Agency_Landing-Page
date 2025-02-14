@@ -35,7 +35,7 @@ pnpm run dev
 - **Tailwind CSS** – A utility-first CSS framework for flexible styling
 
 ## 📄 License
-This project is developed by **Noval H.** and is available for use under applicable regulations.
+This project is developed by **Noval** and is available for use under applicable regulations.
 
 ---
 ✨ *Developed with passion by Noval H.* ✨
