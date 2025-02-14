@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Service from "./components/Service";
 import Testi from "./components/Testimonial";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   useEffect(() => {
@@ -51,6 +52,7 @@ function App() {
       <Testi />
       <Collab />
       <Footer />
+      <Analytics/>
     </main>
   );
 }
