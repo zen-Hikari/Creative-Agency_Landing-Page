@@ -1,7 +1,7 @@
 .container {
-    max-width: 1200px;
-    margin-right: 16px;
-    margin-left: 16px;
+    max-width: 1300px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 body {
     font-family: "Nunito", serif;
@@ -41,3 +41,109 @@ body {
 
    transition: 0.2s;
 }
+.img-bg1 {
+  background: url(./assets/portfolio-1.jpg);
+}
+.img-bg2 {
+  background: url(./assets/portfolio-2.jpg);
+}
+.img-bg3 {
+  background: url(./assets/portfolio-3.jpg);
+}
+
+.img-bg {
+  width: 500px;
+  height: 390px;
+  display: flex;
+  background-size: cover;
+  filter: brightness(80%);
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+}
+.img-bg:hover {
+  transform: scale(1.12);
+}
+
+ .card-testi {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+
+ }
+
+ .collab {
+  display: flex;
+ }
+ @media screen and (max-width: 1201px) {
+  .header-about{
+    flex-direction: column-reverse;
+  }
+
+ }
+ @media screen and (max-width: 1199px) {
+  .collab {
+    flex-direction: column;
+  }
+
+ }
+ @media screen and (max-width: 901px) {
+  .img-port {
+    flex-direction: column;
+    align-items: center;
+  }
+  .testi-cont {
+    flex-direction: column;
+  }
+  .service {
+    flex-direction: column;
+    text-align: center;
+  }
+  .span-ser {
+    justify-content: center;
+  }
+  .card-cont-1 {
+    flex-direction: column;
+  }
+  .card-cont-2 {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+ }
+ @media screen and (max-width: 565px) {
+   .collab {
+     flex-direction: column-reverse;
+     gap: 50px;
+     text-align: center;
+     font-size: 20px;
+   }
+   .header-about {
+    flex-direction: column;
+   }
+   .coll-title {
+    font-size: 30px;
+   }
+   .coll-desc {
+    font-size: 20px;
+   }
+   .btn-coll {
+    font-size: 15px;
+   }
+   .img-bg {
+    width: 100%;
+   }
+ }
+
+ @media screen and (max-width: 457px) {
+  .btn-about {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .btn-about a {
+    width: 100%;
+    text-align: center;
+  }
+  
+ }

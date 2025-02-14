@@ -10,7 +10,7 @@ function Navbar() {
     };
 
     return (
-        <header className="py-6">
+        <header id='Home' className="py-6">
             <nav className="flex justify-center">
                 <div className="container flex items-center justify-center">
                     <div className="logo">
@@ -20,7 +20,7 @@ function Navbar() {
                     {/* Menu */}
                     <div className={`link-menu text-gray-400 text-lg ml-auto flex gap-10 ${isMenuOpen ? 'absolute flex-col top-40 ' : 'hidden'} xl:flex xl:flex-row`}>
                         <a href="#" className="text-black font-medium hover:text-blue-500">Home</a>
-                        <a href="#" className="hover:text-blue-500 transition">About</a>
+                        <a href="#about" className="hover:text-blue-500 transition">About</a>
                         <a href="#" className="hover:text-blue-500 transition">Service</a>
                         <a href="#" className="hover:text-blue-500 transition">Project</a>
                     </div>
