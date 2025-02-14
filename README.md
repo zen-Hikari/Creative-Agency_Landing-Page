@@ -10,7 +10,6 @@ and design resources for your project.
 - **Modern & Responsive Design**
 - **Reusable Components** for faster development
 - **Clean & Structured Code**
-- **Dark Mode Support**
 
 ## 📦 Installation
 Follow these steps to run the project locally:
